@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "SummerFast",
+	"description": "Navigate through Virginia summer courses more easily",
+	"version": "1.0",
+	"icons": {
+		"128": "128.png"
+	},
+	"content_scripts": [{
+		"matches": ["*://scorm.schoology.com/ScormEngineInterface/defaultui/*"],
+        "all_frames": true,
+		"css": ["summer.css"],
+		"js": ["summer.js"]
+	}],
+	"permissions": [
+		"activeTab"
+	]
+}
