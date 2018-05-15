@@ -3,8 +3,8 @@
     color: red;
 }
 #previous::after {
-    content: '(left arrow)';
+    content: '(left bracket)';
 }
 #next::after {
-    content: '(right arrow)';
+    content: '(right bracket)';
 }
