@@ -1,0 +1,10 @@
+#previous::after,
+#next::after {
+    color: red;
+}
+#previous::after {
+    content: '(left arrow)';
+}
+#next::after {
+    content: '(right arrow)';
+}
