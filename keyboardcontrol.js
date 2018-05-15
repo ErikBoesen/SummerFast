@@ -1,7 +1,11 @@
 console.log('Trying keyboard control at ' + location.href);
 var button_previous = document.getElementById('previous')),
     button_next     = document.getElementById('next');
-addEventListener('keydown', function(e) {
+
+if (
+    button_previous != null &&
+    button_next     != null
+) addEventListener('keydown', function(e) {
     var act = document.activeElement;
     if (
         !(act.tagName === 'input' && act.type === 'text')
