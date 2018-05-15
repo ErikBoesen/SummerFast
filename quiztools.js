@@ -1,5 +1,3 @@
-'use strict';
-
 var done_button = document.getElementById('done');
 if (done_button != null) {
     console.log('SummerFast: running at ' + location.href);
