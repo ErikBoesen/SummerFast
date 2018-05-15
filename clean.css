@@ -1,0 +1,10 @@
+/* Header */
+#top_credit {
+    display: none;
+}
+#menuToggle,
+#closeSco,
+#returnToLms,
+#help {
+    visibility: invisible !important;
+}
