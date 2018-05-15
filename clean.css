@@ -6,8 +6,12 @@
 #closeSco,
 #returnToLms,
 #help {
-    visibility: invisible !important;
+    display: none;
 }
+#previous {
+    width: 2px;
+}
+#tt_top_navMenu {}
 
 #calculator_btn_open,
 #glossary_btn_open {
