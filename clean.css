@@ -8,3 +8,14 @@
 #help {
     visibility: invisible !important;
 }
+
+#calculator_btn_open,
+#glossary_btn_open {
+    display: none;
+}
+#footer {
+    display: none;
+}
+#tt_left tr :nth-child(2) {
+    display: none;
+}
