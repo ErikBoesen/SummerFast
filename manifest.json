@@ -7,7 +7,7 @@
 		"128": "128.png"
 	},
 	"content_scripts": [{
-		"matches": ["*://scorm.schoology.com/ScormEngineInterface/defaultui/*"],
+		"matches": ["*://*/*"],
         "all_frames": true,
 		"css": ["summer.css"],
 		"js": ["summer.js"]
