@@ -16,6 +16,10 @@
 		"all_frames": true,
 		"css": ["keyboardcontrol.css"],
 		"js": ["keyboardcontrol.js"]
+	}, {
+		"matches": ["https://scorm.schoology.com/*"],
+		"all_frames": true,
+		"css": ["clean.css"]
 	}],
 	"permissions": [
 		"activeTab"
