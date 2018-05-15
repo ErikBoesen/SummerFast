@@ -15,9 +15,9 @@
     }
 });*/
 
-console.log('SummerFast: loaded at ' + location.href);
 var done_button = document.getElementById('done');
 if (done_button != null) {
+    console.log('SummerFast: running at ' + location.href);
     unlock_button = document.createElement('button');
     unlock_button.type = 'button';
     unlock_button.id = 'unlock_button'
