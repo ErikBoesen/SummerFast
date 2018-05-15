@@ -7,7 +7,7 @@
 		"128": "128.png"
 	},
 	"content_scripts": [{
-		"matches": ["*://*/*"],
+		"matches": ["https://scorm.schoology.com/*/screen.html"],
         "all_frames": true,
 		"css": ["summer.css"],
 		"js": ["summer.js"]
