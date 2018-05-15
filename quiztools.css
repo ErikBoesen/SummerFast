@@ -1,3 +1,7 @@
 #unlock_button {
     color: darkgreen;
+    opacity: 0.5;
+}
+#done[disabled] ~ #unlock_button {
+    opacity: 1;
 }
