@@ -15,7 +15,7 @@
     }
 });*/
 
-console.log('SummerFast loaded at ' + location.href);
+console.log('SummerFast: loaded at ' + location.href);
 var done_button = document.getElementById('done');
 if (done_button != null) {
     unlock_button = document.createElement('button');
@@ -26,7 +26,7 @@ if (done_button != null) {
         for (e of document.querySelectorAll('[disabled]')) e.disabled = false;
     });
     done_button.parentElement.appendChild(unlock_button);
-    console.log('Appended unlock button');
+    console.log('SummerFast: Appended unlock button');
 } else {
-    console.log('No done button detected');
+    console.log('SummerFast: No done button detected');
 }
