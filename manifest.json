@@ -12,7 +12,7 @@
 		"css": ["quiztools.css"],
 		"js": ["quiztools.js"]
 	}, {
-		"matches": ["https://scorm.schoology.com/*/*/top.jsp"],
+		"matches": ["https://scorm.schoology.com/**/top.jsp"],
 		"all_frames": true,
 		"css": ["keyboardcontrol.css"],
 		"js": ["keyboardcontrol.js"]
