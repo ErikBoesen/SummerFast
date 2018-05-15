@@ -1,7 +1,6 @@
 console.log('Trying keyboard control at ' + location.href);
-console.log(document.getElementById('previous'));
-console.log(document.getElementById('next'));
-console.log('SummerFast: creating keylistener for keyboard control');
+var button_previous = document.getElementById('previous')),
+    button_next     = document.getElementById('next');
 addEventListener('keydown', function(e) {
     var act = document.activeElement;
     if (
@@ -9,10 +8,10 @@ addEventListener('keydown', function(e) {
     ) {
         switch (e.which) {
             case 219: // Left bracket
-                document.getElementById('previous').click();
+                button_previous.click();
                 break;
             case 221: // Right bracket
-                document.getElementById('next').click();
+                button_next.click();
                 break;
         }
     }
