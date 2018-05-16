@@ -6,7 +6,7 @@
 #closeSco,
 #returnToLms,
 #help {
-    display: none;
+    display: none !important;
 }
 #previous {
     width: 2px;
