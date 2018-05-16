@@ -17,7 +17,8 @@
 #glossary_btn_open {
     display: none;
 }
-#footer {
+#footer,
+.push {
     display: none;
 }
 #tt_left tr :nth-child(2) {
